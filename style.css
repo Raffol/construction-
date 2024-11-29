@@ -1,0 +1,230 @@
+body{
+    background-image: url("img/cross-stitch-pattern.jpg");
+}
+header{
+    border: 2px solid #D9D9D9;
+    background-color: #D9D9D9;
+    opacity: 80%;
+    display: flex;
+    gap: 50px;
+}
+.materials{
+    text-transform: uppercase;
+    color: red;
+    text-shadow: black;
+    font-size: 40px;
+    margin-left: 80px;
+}
+.salesmaterials{
+    font-size: 16px;
+    margin-left: 250px;
+}
+.location{
+    font-size: 24px;
+}
+.adress{
+    margin-left: 200px;
+}
+.contacts{
+    border: 2px solid #D9D9D9;
+    background-color: #D9D9D9;
+    align-items: center;
+    margin: 10px 450px;
+    text-align: center;
+    border-radius: 30px;
+}
+h1{
+    font-size: 80px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 80px;
+}
+h3{
+    font-size: 36px;
+    text-align: center;
+}
+h4{
+    font-size: 40px;
+}
+.aeratedconcretediv{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.aeratedconcrete1 img{
+    width: 321px;
+    height: 228px;
+}
+.aeratedconcrete1{
+    border: 3px solid #D9D9D9;
+    text-align: center;
+    background-color: #E8E5E5;
+    border-radius: 10px;
+    padding: 10px;
+}
+.aeratedconcrete2 img{
+
+    width: 321px;
+    height: 228px;
+}
+.aeratedconcrete2{
+    border: 3px solid #D9D9D9;
+    text-align: center;
+    background-color: #E8E5E5;
+    border-radius: 10px;
+    padding: 10px;
+}
+.brickdiv{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.brick img{
+    width: 321px;
+    height: 228px;
+}
+.brick{
+    border: 3px solid #D9D9D9;
+    text-align: center;
+    background-color: #E8E5E5;
+    border-radius: 10px;
+    padding: 10px;
+}
+.reinforcementdiv{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.reinforcement img{
+    width: 321px;
+    height: 228px;
+    gap: 20px;
+}
+.reinforcement{
+    border: 3px solid #D9D9D9;
+    text-align: center;
+    background-color: #E8E5E5;
+    border-radius: 10px;
+    padding: 10px;
+}.cementdiv{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.cement img{
+    width: 321px;
+    height: 228px;
+}
+.cement{
+    border: 3px solid #D9D9D9;
+    text-align: center;
+    background-color: #E8E5E5;
+    border-radius: 10px;
+    padding: 10px;
+}
+.slatediv{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.slate1 img{
+    width: 321px;
+    height: 228px;
+}
+.slate1{
+    border: 3px solid #D9D9D9;
+    text-align: center;
+    background-color: #E8E5E5;
+    border-radius: 10px;
+    padding: 10px;
+}
+.slate2 img{
+    width: 321px;
+    height: 228px;
+}
+.slate2{
+    border: 3px solid #D9D9D9;
+    text-align: center;
+    background-color: #E8E5E5;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.lumberdiv{
+    display: flex;
+    justify-content: center;
+}
+.lumber img{
+    width: 321px;
+    height: 228px;
+    gap: 20px;
+}
+.lumber{
+    border: 3px solid #D9D9D9;
+    text-align: center;
+    background-color: #E8E5E5;
+    border-radius: 10px;
+    padding: 10px;
+}
+.circlesdiv{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.circles img{
+    width: 321px;
+    height: 228px;
+    gap: 15px;
+}
+.circles{
+    border: 3px solid #D9D9D9;
+    text-align: center;
+    background-color: #E8E5E5;
+    border-radius: 10px;
+    padding: 10px;
+}
+.deliverydiv{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.delivery{
+    border: 3px solid #D9D9D9;
+    text-align: center;
+    background-color: #E8E5E5;
+    border-radius: 10px;
+    padding: 10px;
+}
+.delivery img{
+    width: 321px;
+    height: 228px;
+}
+.consultationdiv{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.consultation{
+    border: 3px solid #D9D9D9;
+    text-align: center;
+    background-color: #E8E5E5;
+    border-radius: 10px;
+    padding: 10px;
+}
+.consultation img{
+    width: 321px;
+    height: 228px;
+}
+footer{
+    border: 2px solid #D9D9D9;
+    background-color: #D9D9D9;
+    opacity: 80%;
+    display: flex;
+    gap: 50px;
+}
+footer p{
+
+    margin-left: 100px;
+}
