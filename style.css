@@ -17,7 +17,7 @@ header{
 }
 .salesmaterials{
     font-size: 16px;
-    margin-left: 250px;
+    margin: 0 auto;
 }
 .location{
     font-size: 24px;
@@ -29,10 +29,10 @@ header{
     border: 2px solid #D9D9D9;
     background-color: #D9D9D9;
     align-items: center;
-    margin: 10px 450px;
+    margin: 10px auto;
     text-align: center;
     border-radius: 30px;
-}
+   }
 h1{
     font-size: 80px;
     text-align: center;
@@ -225,6 +225,102 @@ footer{
     gap: 50px;
 }
 footer p{
-
     margin-left: 100px;
+}
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px; /* Уменьшаем отступы */
+    }
+
+    .materials {
+        font-size: 30px;
+        margin-left: 0;
+        text-align: left;
+    }
+
+    .salesmaterials {
+        font-size: 14px;
+        margin-left: 0;
+        text-align: right;
+    }
+
+    .location {
+        font-size: 20px;
+    }
+
+    .adress {
+        margin-left: 0;
+    }
+
+    .contacts {
+        margin: 10px;
+        padding: 10px;
+        width: 90%; /* Увеличиваем ширину */
+        text-align: left; /* Выравниваем текст по левому краю */
+    }
+
+    h1, h2 {
+        font-size: 60px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
+
+    .aeratedconcrete1 img, .aeratedconcrete2 img, .brick img, .reinforcement img, .cement img, .slate1 img, .slate2 img, .lumber img, .circles img, .delivery img, .consultation img {
+        width: 100%;
+        height: auto;
+    }
+
+    .aeratedconcrete1, .aeratedconcrete2, .brick, .reinforcement, .cement, .slate1, .slate2, .lumber, .circles, .delivery, .consultation {
+        width: 100%;
+        padding: 10px;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px; /* Уменьшаем отступы */
+    }
+
+    footer p {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .materials {
+        font-size: 24px;
+    }
+
+    .salesmaterials {
+        font-size: 12px;
+    }
+
+    .location {
+        font-size: 18px;
+    }
+
+    h1, h2 {
+        font-size: 48px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    h4 {
+        font-size: 24px;
+    }
+
+    .contacts {
+        width: 100%; /* Увеличиваем ширину */
+        text-align: left; /* Выравниваем текст по левому краю */
+    }
 }
