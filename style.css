@@ -6,24 +6,31 @@ header{
     background-color: #D9D9D9;
     opacity: 80%;
     display: flex;
+
     gap: 50px;
 }
 .materials{
+    display: flex;
     text-transform: uppercase;
     color: red;
     text-shadow: black;
     font-size: 40px;
-    margin-left: 80px;
+    margin-left: 40px;
 }
 .salesmaterials{
+    font-weight: bold;
     font-size: 16px;
     margin: 0 auto;
 }
 .location{
+    display: flex;
     font-size: 24px;
 }
 .adress{
-    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    font-weight: bold;
 }
 .contacts{
     border: 2px solid #D9D9D9;
@@ -274,12 +281,12 @@ footer p{
     }
 
     .aeratedconcrete1 img, .aeratedconcrete2 img, .brick img, .reinforcement img, .cement img, .slate1 img, .slate2 img, .lumber img, .circles img, .delivery img, .consultation img {
-        width: 100%;
-        height: auto;
+        width: 300px;
+        height: 200px;
     }
 
     .aeratedconcrete1, .aeratedconcrete2, .brick, .reinforcement, .cement, .slate1, .slate2, .lumber, .circles, .delivery, .consultation {
-        width: 100%;
+        width: 400px;
         padding: 10px;
     }
 
